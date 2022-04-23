@@ -1,7 +1,7 @@
 # Django Polling App
 
 This application is using docker-compose to deploy 3 primary components
-- webapp
+- [webapp](django-web-application)
 - Postgres db
 - Postgres admin IDE
 
