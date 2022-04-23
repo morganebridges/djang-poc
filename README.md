@@ -34,6 +34,13 @@ The Django admin interface will be hosted at: `http://localhost:8000/admin`
 
 The default username/password for the admin interface will be `admin`/`admin`.
 
+### Running tests
+I like to connect to the docker container and run tests from there.
+```
+docker exec -it <containerId> /bin/bash
+python manage.py test polls
+```
+The above will run all the `test_*.py` files in the `polls` app.
 ## Postgres database
 The postgres database is hosted in a docker container on the default port `5432`.
 
