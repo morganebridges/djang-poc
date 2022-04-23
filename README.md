@@ -1,6 +1,9 @@
 # Django Polling App
 
 This application is using docker-compose to deploy 3 primary components
+- webapp
+- Postgres db
+- Postgres admin IDE
 
 ## Django web application
 This app uses Django 4
@@ -30,9 +33,6 @@ The Django application will be hosted at `http://localhost:8000`
 The Django admin interface will be hosted at: `http://localhost:8000/admin`
 
 The default username/password for the admin interface will be `admin`/`admin`.
-
-### Idiosyncracies
-When using django
 
 ## Postgres database
 The postgres database is hosted in a docker container on the default port `5432`.
