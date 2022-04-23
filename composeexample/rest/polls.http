@@ -1,0 +1,11 @@
+@appHost=localhost:8000
+@scheme=http
+@appUrl = {{scheme}}://{{appHost}}
+
+#list polls
+GET {{appUrl}}/polls
+
+@pollId=10
+
+#GET a poll detail
+GET {{appUrl}}/polls/{{pollId}}
