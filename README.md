@@ -15,15 +15,15 @@ python 3 is required (3.8+)
 
 #### install pip (pip3 on linux)
 _linux_
-```
+```bash
 sudo apt-get install pip3
 ```
 #### install required packages
-```
+```bash
 pip3 install -r requirements.txt
 ```
 #### launch containers and application
-```
+```bash
 docker-compose up
 ```
 Include the `-d` flag with your docker-compose command to run the containers headless.
@@ -36,7 +36,7 @@ The default username/password for the admin interface will be `admin`/`admin`.
 
 ### Running tests
 I like to connect to the docker container and run tests from there.
-```
+```bash
 docker exec -it <containerId> /bin/bash
 python manage.py test polls
 ```
