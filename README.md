@@ -60,5 +60,5 @@ default password: `root`
 ### use the IDE
 browse to `http://localhost:5050`
 
-_NOTE_: If you need to restart your containers, you will see cert errors in the IDE logs if a browser tab is left open. Close browser tags and log in whenever the container is restarted.
+_NOTE_: If you need to restart your containers, you will see cert errors in the IDE logs if a browser tab is left open. Close browser tabs and log in whenever the container is restarted.
 
