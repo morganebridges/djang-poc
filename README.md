@@ -46,7 +46,7 @@ The postgres database is hosted in a docker container on the default port `5432`
 
 The default database name, username, and password will be `postgres`.
 
-### Installing the CLI to access posgres 
+### Installing the CLI to access Postgres 
 
 _linux_
 
