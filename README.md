@@ -40,7 +40,7 @@ I like to connect to the docker container and run tests from there.
 docker exec -it <containerId> /bin/bash
 python manage.py test polls
 ```
-The above will run all the `test_*.py` files in the `polls` app.
+The above will run all the `tests_*.py` files in the `polls` app.
 ## Postgres database
 The postgres database is hosted in a docker container on the default port `5432`.
 
