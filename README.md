@@ -40,6 +40,15 @@ I like to connect to the docker container and run tests from there.
 docker exec -it <containerId> /bin/bash
 python manage.py test polls
 ```
+
+### Seeing test coverage
+This application uses the `coverage` utility. For getting test coverage for our polls app:
+
+```bash
+coverage run --source='.' manage.py test polls
+coverage report
+```
+
 The above will run all the `tests_*.py` files in the `polls` app.
 ## Postgres database
 The postgres database is hosted in a docker container on the default port `5432`.
